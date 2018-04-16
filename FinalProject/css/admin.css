@@ -1,0 +1,30 @@
+﻿h1{
+    text-align:center;
+    color:#262c3a;
+}
+
+.buttons{
+    text-align:center;
+}
+
+.btn{
+    width:200px;
+    height:40px;
+    border-radius:2px;
+    border:1px solid #4caf50;
+    color:#4caf50;
+    background:white;
+    margin:5px 10px;
+    cursor:pointer;
+    outline:none;
+    font:bold 16px calibri;
+}
+
+.btn:hover{
+    background:#4caf50;
+    color:white;
+}
+
+.table td{
+    padding:5px 30px;
+}

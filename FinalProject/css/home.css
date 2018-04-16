@@ -1,0 +1,113 @@
+﻿@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+}
+.container {
+    width:100%;
+}
+
+.container img {
+    width: 103%;
+    filter: blur(6px);
+    margin-left:-10px;
+    margin-top:-10px;
+    
+}
+
+.header:before{
+    clear:both;
+    content:"";
+    display:table;
+}
+
+.header{
+    position:absolute;
+    width:100%;
+    top:0;
+    height:60px;
+    background:transparent;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+}
+
+.wrapper{
+    width:80%;
+    margin:auto;
+}
+
+
+.header h1{
+    margin:0px;
+    font-family: 'OpenSans-Regular', Calibri;
+    font-weight:normal;
+    color: #f1f1f1;
+    display:inline-block;
+    font-size: 30px;
+    padding: 10px 0px;
+    cursor:pointer;
+}
+
+
+.header h1 span{
+    font-family: calibri;
+    font-size: 25px;
+}
+
+nav{
+    float:right;
+}
+
+.header ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.header li{
+    display:inline-block;
+}
+
+.header li a, .lnk-btn{
+    text-decoration:none;
+    color: #ddd;
+    padding:0px 10px;
+    display:block;
+    font-family:Calibri;
+    text-transform:uppercase;
+    font-size:16px;
+    font-weight:bold;
+    line-height:60px;
+    transition:all 0.2s ease-in-out;
+}
+
+
+.header li a:hover{
+    color: #fff;
+}
+
+.content{
+    position:absolute;
+    top:210px;
+    width:100%;
+    text-align:center;
+}
+
+.content h1{
+    font:normal 80px 'OpenSans-Light';
+    color:#000;
+}

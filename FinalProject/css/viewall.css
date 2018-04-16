@@ -1,0 +1,44 @@
+﻿@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+h1{
+    text-align:center;
+    font-family:OpenSans-Light, Calibri;
+    font-weight:normal;
+}
+
+.btn-content{
+    margin-top:30px;
+    text-align:center;
+}
+
+.btn{
+    height:40px;
+    width:200px;
+    border:1px solid #ddd;
+    border-radius:2px;
+    background:#fff;
+    color:#262c3a;
+    font:bold 16px calibri;
+    margin:5px 10px;
+    cursor:pointer;
+    outline:none;
+    transition:all 0.33s ease-in-out;
+}
+
+.btn:hover{
+    background:#f1f1f1;
+}
+
+.table{margin-top: 30px;}
+
+.grid{
+    box-shadow:0px 1px 4px rgba(0,0,0,0.3);
+    margin: auto;
+}
+
+.grid td, .grid th{
+    padding:10px 30px;
+}
